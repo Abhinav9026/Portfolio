@@ -5,6 +5,32 @@
     box-sizing: border-box;
     font-family: 'Arial', sans-serif;
 }
+/* Responsive layout using media queries */
+@media (max-width: 768px) {
+    header, footer {
+        font-size: 1.2em;
+    }
+
+    main {
+        padding: 0.5em;
+    }
+}
+
+@media (max-width: 480px) {
+    header, footer {
+        font-size: 1em;
+    }
+
+    main {
+        padding: 0.25em;
+    }
+}
+
+/* Responsive images */
+img {
+    max-width: 100%;
+    height: auto;
+}
 
 body {
     background-color: #1e1e1e;
@@ -12,6 +38,7 @@ body {
     font-size: 14px;
     line-height: 1.6;
 }
+
 
 header {
     padding: 25px 5%;
