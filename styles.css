@@ -39,7 +39,7 @@ body {
     line-height: 1.6;
 }
 
-
+/*
 header {
     padding: 25px 5%;
     background-color: #1e1e1e;
@@ -100,6 +100,135 @@ nav ul li a:hover {
     background-color: #00cc7a;
 }
 
+*/
+
+/* General Styles */
+header {
+    padding: 25px 5%;
+    background-color: #1e1e1e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 50;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.logo span {
+    color: #00ff9e;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin-left: 20px; /* Adjusted margin-left for better alignment */
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #00ff9e;
+}
+
+.hire-me {
+    background-color: #00ff9e;
+    padding: 10px 20px;
+    color: #000;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.hire-me:hover {
+    background-color: #00cc7a;
+}
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+    nav ul {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 992px) {
+    .logo {
+        font-size: 20px;
+    }
+
+    nav ul {
+        display: none; /* Hide navigation links for smaller screens */
+    }
+
+    .hire-me {
+        padding: 8px 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        padding: 15px 5%;
+    }
+
+    .logo {
+        margin-bottom: 10px;
+    }
+
+    nav {
+        width: 100%;
+        justify-content: center;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+    }
+
+    nav ul li {
+        margin: 5px 0;
+    }
+
+    .hire-me {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo {
+        font-size: 18px;
+    }
+
+    nav ul li a {
+        font-size: 14px;
+    }
+
+    .hire-me {
+        padding: 6px 12px;
+        font-size: 14px;
+    }
+}
 
 
 .hero {
