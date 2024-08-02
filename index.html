@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhinav Srivastava Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+    <header>
+        <nav style="height: 7px;">
+            <div class="logo">Abhi<span>.</span></div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#training">Intership/Training</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#research">Research</a></li>
+                
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <a href="https://drive.google.com/file/d/1TAVzHrVZNq5AMiHKsqDHrADYZfpgv30Y/view?usp=drive_link" class="hire-me" target="_blank" rel="noopener noreferrer">Hire me</a>
+        </nav>
+    </header>
+
+    <section class="hero" id="home" class="section animated">
+        <div class="content">
+            <h2>Software Developer</h2>
+            <h1>Hello I’m <span>Abhinav Srivastava</span></h1>
+            <p>Highly Skilled and adaptable professional with expertise Python, SQL, Apache, etc. Proven ability to quickly adapt to new environments and technologies. </p>
+            <a href="https://drive.google.com/file/d/1TAVzHrVZNq5AMiHKsqDHrADYZfpgv30Y/view?usp=drive_link"  target="_blank" class="download-cv">Download CV</a>
+            <div class="social-links">
+                <a href="https://github.com/Abhinav9026" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/abhinav-srivastava-b929431b7/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://x.com/Abhinav63704103" target="_blank"><i class="fab fa-youtube"></i></a>
+                <a href="https://www.instagram.com/abhinav5787/" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+        <div class="profile-pic">
+            <img src="IMG_20220219_064240.jpg" alt="Luke Coleman">
+        </div>
+    </section>
+    <section class="about" id="about" class="section animated">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>Hello! I'm Abhinav Srivastav, a passionate data analyst with a strong background in SQL and Python. I excel in designing algorithms and data analysis, and have hands-on experience with statistical modeling and handling large datasets. I am committed to continuous learning and staying updated with emerging technologies to contribute innovative solutions in a dynamic environment.</p>
+                <p>When I'm not coding, you'll find me exploring new tech trends, contributing to open-source projects, or enjoying a good book. I'm always excited to collaborate on innovative projects and help turn ideas into reality.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section class="education" id="training" class="section animated">
+        <h2>Internship/Trainings</h2>
+        <div class="education-item" onclick="toggleDetails(this)">
+            <h3>Trainee - Software Engineer</h3>
+            <p class="institution">Kizzy Consulting LLP , March'2024 - June'2024</p>
+            <div class="details">
+                <p>I gained foundational experience with Salesforce. 
+                    Developed skills in basic Salesforce configuration, data management, and customization,
+                     enhancing my understanding of CRM platforms and their practical 
+                     applications in business environments.</p>
+            </div>
+        </div>
+        <div class="education-item" onclick="toggleDetails(this)">
+            <h3>Software Testing</h3>
+            <p class="institution">Skill Stone | Grazittie Interactive , Jan'2023 - Feb'2023</p>
+            <div class="details">
+                <p>Completed a 2-month training in software testing, 
+                    focusing on manual testing techniques and foundational automation skills. 
+                    Gained practical experience in test case creation, bug reporting,
+                 and leveraging basic automation tools to enhance testing efficiency and accuracy.</p>
+            </div>
+        </div>
+        
+    </section>
+    <section class="education" id="education" class="section animated">
+        <h2>Education</h2>
+        <div class="education-item" onclick="toggleDetails(this)">
+            <h3>M.Tech (Data Science and Analytics)</h3>
+            <p class="institution">Lovely Professional University, 2024 - Present</p>
+            <div class="details">
+                <p>Specialized in Data Science.</p>
+                <br><i> Percentage - </i>
+            </div>
+        </div>
+        <div class="education-item" onclick="toggleDetails(this)">
+            <h3>B.tech (Computer Science and Engineering)</h3>
+            <p class="institution">Lovely Professional University, 2020 - 2024</p>
+            <div class="details">
+                <p> Graduated with honors, focusing on data Science and Software development.
+                    <br><i> Percentage - 77.80</i>
+                </p>
+            </div>
+        </div>
+        <div class="education-item" onclick="toggleDetails(this)">
+            <h3>12th, Intermediate</h3>
+            <p class="institution">St. Paul's Inter College, April'2019- March'2020</p>
+            <div class="details">
+                <p> Percentage - 77.20
+                </p>
+            </div>
+        </div>
+        <div class="education-item" onclick="toggleDetails(this)">
+            <h3>10th Intermediate</h3>
+            <p class="institution">St. Paul's Inter College, April'2017- March'2018</p>
+            <div class="details">
+                <p> Percentage - 64.20
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="skill-category">
+                <h3><i class="fas fa-code"></i> Programming Languages</h3>
+                <ul>
+                    <li class="proficiency" data-rating="10">
+                        Python <span class="rating-bar"><span class="rating-fill"></span></span>
+                    </li>
+                    <li class="proficiency" data-rating="7">
+                        Scala <span class="rating-bar"><span class="rating-fill"></span></span>
+                    </li>
+                    <li class="proficiency" data-rating="9">
+                        JavaScript <span class="rating-bar"><span class="rating-fill"></span></span>
+                    </li>
+                    <li class="proficiency" data-rating="10">
+                        C++ <span class="rating-bar"><span class="rating-fill"></span></span>
+                    </li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3><i class="fas fa-globe"></i> Web Technologies</h3>
+                <ul>
+                    <li class="proficiency" data-rating="10">
+                        Html5 <span class="rating-bar"><span class="rating-fill"></span></span>
+                    </li>
+                    <li class="proficiency" data-rating="9">
+                        CSS<span class="rating-bar"><span class="rating-fill"></span></span>
+                    </li>
+                    <li class="proficiency" data-rating="9">
+                        jQuery <span class="rating-bar"><span class="rating-fill"></span></span>
+                    </li>
+                    <li class="proficiency" data-rating="8">
+                        Git<span class="rating-bar"><span class="rating-fill"></span></span>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="skill-category">
+                <h3><i class="fas fa-database"></i> Data Management</h3>
+                <ul>
+                    <li class="proficiency" data-rating="10">
+                        Excel<span class="rating-bar"><span class="rating-fill"></span></span>
+                    </li>
+                    <li class="proficiency" data-rating="9">
+                        Tableau<span class="rating-bar"><span class="rating-fill"></span></span>
+                    </li>
+                    <li class="proficiency" data-rating="7">
+                        Apache Hive <span class="rating-bar"><span class="rating-fill"></span></span>
+                    </li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3><i class="fas fa-puzzle-piece"></i> Concepts</h3>
+                <ul>
+                    <li class="proficiency" data-rating="7">
+                        Data Structure and Algorithms<span class="rating-bar"><span class="rating-fill"></span></span>
+                    </li>
+                    <li class="proficiency" data-rating="10">
+                        Object-Oriented Programming<span class="rating-bar"><span class="rating-fill"></span></span>
+                    </li>
+                   
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3><i class="fas fa-tools"></i> Tools</h3>
+                <ul>
+                    <li class="proficiency" data-rating="10">
+                        GitHub<span class="rating-bar"><span class="rating-fill"></span></span>
+                    </li>
+                    <li class="proficiency" data-rating="8">
+                        Gitlab<span class="rating-bar"><span class="rating-fill"></span></span>
+                    </li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3><i class="fas fa-database"></i> Database</h3>
+                <ul>
+                    <li class="proficiency" data-rating="10">
+                        MySQL<span class="rating-bar"><span class="rating-fill"></span></span>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <h2>Projects</h2>
+        <div class="projects-container">
+            <div class="project-item">
+                <div class="project-info">
+                    <h3>LPG BookingSystem</h3>
+                    <p>Developed a user-friendly LPG Booking System interface utilizing Python , enabling users to easily check and book LPG as per there need in their house by entering a pin code, contributing to Go Online Go Cashless</p>
+                    <a href="https://github.com/Abhinav9026/LPG-BookingSystem" target="_blank" class="github-button">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                </div>
+            </div>
+            <div class="project-item">
+                <div class="project-info">
+                    <h3>World Popluation Data - MS Excel, Tableau</h3>
+                    <p>This is a project which provides a way to analyze population of different countries on the basis of different factors like country with popularity, death or birth rate, height, etc.</p>
+                    <a href="https://github.com/Abhinav9026/World-Population-Data-Tableau" target="_blank" class="github-button">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                </div>
+            </div>
+            <div class="project-item">
+                <div class="project-info">
+                    <h3>Currency Converter</h3>
+                    <p>Easily convert amounts between currencies with our real-time online converter. Get instant, accurate results for multiple currencies with up-to-date exchange rates.</p>
+                    <a href="https://github.com/Abhinav9026/CurrencyConverter" target="_blank" class="github-button">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                </div>
+            </div>
+            <div class="project-item">
+                <div class="project-info">
+                    <h3>Banking System</h3>
+                    <p>Developed an online Banking System which facilities the customers to create a new account, to deposit money or to Withdrawing money.</p>
+                    <a href="https://github.com/Abhinav9026/LPG-BookingSystem" target="_blank" class="github-button">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                </div>
+            </div>
+            <div class="project-item">
+                <div class="project-info">
+                    <h3>Amazon Clone</h3>
+                    <p>Created a clone of Amazon website using HTML and CSS. Uses a various properties of CSS like flexbox, grid layouts.</p>
+                    <a href="https://github.com/Abhinav9026/World-Population-Data-Tableau" target="_blank" class="github-button">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                </div>
+            </div>
+            <div class="project-item">
+                <div class="project-info">
+                    <h3>TicTacToe-Game</h3>
+                    <p>Created a game in which two players take turns drawing either an ' o' or an ' x' in one square of a grid consisting of nine squares.</p>
+                    <a href="https://github.com/username/project-three" target="_blank" class="github-button">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="education" id="research" class="section animated">
+        <h2>Research</h2>
+        <div class="education-item" onclick="toggleDetails(this)">
+            <h3>-</h3>
+            
+            <div class="details">
+                <p>-</p>
+                
+            </div>
+        </div>
+        
+    </section>
+
+
+    
+    <section class="contact" id="contact">
+        <h2>Let's work together</h2>
+        <p class="contact-intro">Reach out to me using the form below.</p>
+        <div class="contact-container">
+            <form class="contact-form">
+                <div class="form-group">
+                    <input type="text" placeholder="Firstname" required>
+                    <input type="text" placeholder="Lastname" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Email address" required>
+                    <input type="tel" placeholder="Phone number" required>
+                </div>
+                <div class="form-group">
+                    <select required>
+                        <option value="" disabled selected>Select a service</option>
+                        <option value="web-development">Web Development</option>
+                        <option value="ui-ux-design">UI/UX Design</option>
+                        <option value="data-science">Data Science</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <textarea placeholder="Type your message here." required></textarea>
+                </div>
+                <button type="submit">Send message</button>
+            </form>
+            <div class="contact-info">
+                <div class="info-item">
+                    <i class="fas fa-phone-alt"></i>
+                    <p>Phone</p>
+                    <a href="tel:+91-902814325">+91-9026814325</a>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <p>Email</p>
+                    <a href="mailto:abhinavsrivastava865@gmail.com">abhinavsrivastava865@gmail.com</a>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>Address</p>
+                    <p>Shahjahanpur, Uttar Pradesh, 242001</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="social-links">
+            <a href="https://github.com/Abhinav9026" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/abhinav-srivastava-b929431b7/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://x.com/Abhinav63704103" target="_blank"><i class="fab fa-youtube"></i></a>
+                <a href="https://www.instagram.com/abhinav5787/" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+        <div>
+            &copy; By Abhinav Srivastava  <br> &bull; Shahjahanpur, Uttar Pradesh, India
+        </div>
+    </footer>
+    
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+    <script src="script.js"></script>
+</body>
+</html>
