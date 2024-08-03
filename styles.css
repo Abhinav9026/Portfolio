@@ -38,7 +38,7 @@ body {
     font-size: 14px;
     line-height: 1.6;
 }
-
+/*
 header {
     padding: 25px 5%;
     background-color: #1e1e1e;
@@ -97,6 +97,44 @@ nav ul li a:hover {
 
 .hire-me:hover {
     background-color: #00cc7a;
+}
+*/
+
+header {
+    padding: 25px 5%;
+    background-color: #1e1e1e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 50;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.logo span {
+    color: #00ff9e;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin-left: 350px
+}
+
+nav ul li {
+    margin: 0 10px;
 }
 
 
