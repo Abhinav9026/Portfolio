@@ -139,6 +139,7 @@ nav ul li {
 
 
 .hero {
+    background-color: #1e1e1e;
     display: flex;
     justify-content: space-between;
     align-items: center;
