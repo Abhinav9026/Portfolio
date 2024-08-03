@@ -6,7 +6,10 @@
     font-family: 'Arial', sans-serif;
 }
 
+.nav-item:hover{
+    color : pink;
 
+}
 body {
     background-color: #1e1e1e;
     color: #fff;
@@ -142,7 +145,7 @@ header {
 /* About Section */
 .about {
     padding: 60px 20px;
-    background-color: #000;
+    background-color: #1e1e1e;
     color: #fff;
     text-align: center;
     opacity: 0;
@@ -433,13 +436,16 @@ header {
     background-color: #00cc7a;
 }
 .contact-info {
-    width: 35%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     gap: 20px;
     justify-content: center;
-    
     text-decoration: none;
+    align-items:flex-start;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .info-item {
     display: flex;
